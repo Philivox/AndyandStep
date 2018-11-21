@@ -1,0 +1,6 @@
+@font-face {
+	font-family: 'marjei display';
+	src: url('marjei_display-webfont.eot');
+	src: url('marjei_display-webfont.eot?#iefix') format('embedded-opentype'),
+		url('marjei_display-webfont.woff') format('woff');
+}

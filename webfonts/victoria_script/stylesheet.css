@@ -1,0 +1,6 @@
+@font-face {
+	font-family: 'victoria script';
+	src: url('victoria_script-webfont.eot');
+	src: url('victoria_script-webfont.eot?#iefix') format('embedded-opentype'),
+		url('victoria_script-webfont.woff') format('woff');
+}
