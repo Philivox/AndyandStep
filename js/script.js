@@ -15,34 +15,35 @@
  var mySlideShow2 = new SlideShow(mySlideList2, 'slide2', 1000, "mySlideShow2");
 */
 
-function SlideShow(slideList, image, speed, name) {
+//function SlideShow(slideList, image, speed, name) {
+//
+//    this.slideList = slideList;
+//    this.image = image;
+//    this.speed = speed;
+//    this.name = name;
+//    this.current = 0;
+//    this.timer = 0;
+//
+//}
+//
+//SlideShow.prototype.play = SlideShow_play;
+//
+//function SlideShow_play() {
+//
+// if (this.current++ === this.slideList.length - 1) {
+//  this.current = 0;
+// }
+// 
+// switchImage(this.image, this.slideList[this.current]);
+// clearTimeout(this.timer);
+// this.timer = setTimeout(this.name + '.play()', this.speed);
+//}function switchImage(imgName, imgSrc) {
+//
+//  if (document.images) {
+//
+//    if (imgSrc !== "none") {
+//      document.images[imgName].src = imgSrc;
+//    }
+//  }
+//}
 
-    this.slideList = slideList;
-    this.image = image;
-    this.speed = speed;
-    this.name = name;
-    this.current = 0;
-    this.timer = 0;
-
-}
-
-SlideShow.prototype.play = SlideShow_play;
-
-function SlideShow_play() {
-
- if (this.current++ === this.slideList.length - 1) {
-  this.current = 0;
- }
- 
- switchImage(this.image, this.slideList[this.current]);
- clearTimeout(this.timer);
- this.timer = setTimeout(this.name + '.play()', this.speed);
-}function switchImage(imgName, imgSrc) {
-
-  if (document.images) {
-
-    if (imgSrc !== "none") {
-      document.images[imgName].src = imgSrc;
-    }
-  }
-}

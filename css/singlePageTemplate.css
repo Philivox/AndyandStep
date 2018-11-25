@@ -467,9 +467,9 @@ nav ul li {
 }
 
 /* Small Desktops */
-@media (min-width: 768px) and (max-width: 1096px) {
+@media /*(min-width: 768px) and (max-width: 1096px)*/ {
 .text_column {
-	width: 100%;
+	width: 60%;
 }
 .thumbnail {
 	width: 50%;
