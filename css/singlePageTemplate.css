@@ -31,6 +31,7 @@ header {
 	height: 5%;
 	background-color: #5C6263;
 	border-bottom: 1px solid #5C6263;
+	text-align: center;
 }
 .logo {
 	color: #fff;
@@ -62,6 +63,7 @@ nav ul li {
 	letter-spacing: 2px;
 	font-weight: bold;
 	transition: all 0.3s linear;
+	margin-top: 15px;
 }
 ul li a {
 	color: #FFFFFF;
